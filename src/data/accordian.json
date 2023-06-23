@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "title":"Will the artist I see in the videos be the same one performing?",
+        "content":"Yes, the lead artist will be same as per the videos and photos shown in the profile."
+    },
+    {
+        "id":2,
+        "title":"Can I select the songs/scripts from your set list?",
+        "content":"Yes, you can pick & request the songs/scripts. We will try to play as much as possible."
+    },
+    {
+        "id":3,
+        "title":"How much time is needed for set up?",
+        "content":"Ideally we like to have at least 60 minutes to set up and we like to perform for near about 120-150 minutes."
+    },
+    {
+        "id":4,
+        "title":"Is all equipment, including PA and lighting, included in your quote?",
+        "content":"All Live101 bookings come with standard inclusions of Artist Fees and travel charges. All booking will clearly mention about all inclusions and exclusions."
+    },
+    {
+        "id":5,
+        "title":"Which venues have you previously performed at?",
+        "content":"We have played many venues up and down the country. Starting from café's to 5 star hotels, we've played them all."
+    },
+    {
+        "id":6,
+        "title":"Do you offer different line-up options?",
+        "content":"Yes. We vary from a solo artist to a full band. We are able to add members as per your requirement."
+    }
+]

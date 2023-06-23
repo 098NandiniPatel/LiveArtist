@@ -1,0 +1,22 @@
+.navbar-list{
+    display: flex;
+    gap: 3rem;
+    padding: 0 1.5rem;
+    justify-content: center;
+}
+li{
+    list-style: none;
+}
+.navbar-link{
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+    &:link{
+        text-decoration: none;
+    }
+    &:hover,
+    &:active {
+        text-decoration: underline;
+    }
+
+}

@@ -1,0 +1,59 @@
+
+.how-it-works {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 2px #bd1d25;
+    -moz-box-shadow: 0px 1px 2px #bd1d25;
+    box-shadow: 0px 1px 2px #bd1d25;
+    padding: 10px 30px;
+    background-color: #bd1d25;
+    display: flex;
+    color: #fff !important;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.p-3{
+    padding: 1rem;
+}
+.how-title{
+    padding:3rem;
+    padding-left: 0;
+}
+.how-it-works-main .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.how-it-works-main .row .col{
+    position: relative;
+    /* width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.how-it-works-main .row .col .why-card{
+margin-bottom: 40px;
+
+}
+.how-it-works-main .row .col .why-card .why-card-icon{
+width: 22%;
+}
+
+.how-it-works-main .row .col .why-card .why-card-icon img{
+width: 100%;
+vertical-align: middle;
+border-style: none;
+margin-bottom: 1.5rem;
+}
+.how-it-works-main .row .col .why-card p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 2rem;
+    line-height: 1.5em;
+}

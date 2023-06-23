@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "img":"https://s3.ap-south-1.amazonaws.com/com.file.upload/folder/16763068561674739619863rn_image_picker_lib_temp_f5fd7ed8-6954-4a5c-8d61-df9aee91b1cc-removebg-preview.png",
+        "name":"TABURA",
+        "type":"Singer",
+        "city":"Mumbai",
+        "rating":4,
+        "reviews":0
+    },
+    {
+        "id":2,
+        "img":"https://s3.ap-south-1.amazonaws.com/com.file.upload/folder/16758387591674720895737rn_image_picker_lib_temp_0bb946b4-4551-4ee0-8b3a-b3ec55d28a67-removebg-preview.png",
+        "name":"HARMON",
+        "type":"Music Band",
+        "city":"Delhi",
+        "rating":4,
+        "reviews":0
+    },
+    {
+        "id":3,
+        "img":"https://s3.ap-south-1.amazonaws.com/com.file.upload/folder/1681805259palchang-removebg-preview.png",
+        "name":"PALCHANG",
+        "type":"Singer",
+        "city":"Mumbai",
+        "rating":4,
+        "reviews":0
+    },
+    {
+        "id":4,
+        "img":"https://s3.ap-south-1.amazonaws.com/com.file.upload/folder/1676303699WhatsApp_Image_2023-02-02_at_12.39.32_PM__1_-removebg-preview.png",
+        "name":"ADITYA",
+        "type":"Singer",
+        "city":"Mumbai",
+        "rating":4,
+        "reviews":0
+    },
+    {
+        "id":5,
+        "img":"https://s3.ap-south-1.amazonaws.com/com.file.upload/folder/1676365403saumya-removebg-preview.png",
+        "name":"SAUMYA",
+        "type":"Singer",
+        "city":"Mumbai",
+        "rating":4,
+        "reviews":0
+    }
+]

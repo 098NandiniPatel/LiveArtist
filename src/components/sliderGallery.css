@@ -1,0 +1,33 @@
+.slider-container {
+    margin:2%;
+  }
+  
+  .slide {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    /* margin: 15px 15px; */
+    border-radius: 50%;
+    
+  }
+  
+  .rounded-image {
+    padding: 0 20px;
+    align-items: center;
+    border-radius: 50%; /* Create a round shape for the image */
+    width: 250px;
+    height: 250px;/* Set the desired height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    /* padding: auto; */
+  }
+.h6{
+  text-transform: uppercase;
+  text-align: center;
+}
+  @media (max-width: 480px) {
+    .rounded-image {
+      width: 120px;
+      height: 120px;
+      margin: 0 1.5px;
+    }
+  }

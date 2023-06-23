@@ -1,0 +1,72 @@
+.landing-banner{
+    display: flex;
+    flex-wrap: wrap;
+    background: #1a2838;
+}
+.landing-banner-left{
+background-image: url(https://s3.ap-south-1.amazonaws.com/data.com.live101.in/images/landing_page/artist/artist-app.png);
+padding: 15px 50px 0 85px;
+    width: 62%;
+    height: 100vh;
+    z-index: 1;
+    background-color: #0c223b;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+.landing-banner-left:before {
+    background-image: url('https://live101.in/assets/img/landing-banner-bg.png');
+    top: 0;
+    transform: rotateX(180deg);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    left: 0;
+    background-repeat: repeat no-repeat;
+    background-position: top;
+    display: block;
+    z-index: -1;
+}
+.content{
+    margin-top: 130px;
+}
+.content h1{
+    width: 40%;
+    /* font-size: 85px;
+    font-weight: 600;
+    letter-spacing: 1.5px; */
+}
+.application{
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.landing-banner-left:after {
+    background-image: url('https://live101.in/assets/img/landing-banner-bg.png');
+    bottom: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    left: 0;
+    background-repeat: repeat no-repeat;
+    background-position: top;
+    display: block;
+    z-index: -1;
+}
+.landing-banner-right {
+    width: 38%;
+    height: 100vh;
+    display: flex;
+    background: #03152a;
+    z-index: 1;
+}
+

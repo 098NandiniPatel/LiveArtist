@@ -1,0 +1,85 @@
+.land-container::before {
+    content: "";
+    background-image: url('https://live101.in/assets/img/landing-bg.png');
+    position: absolute;
+    display: block;
+    top: -9%;
+    left: -31%;
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+
+
+}
+.land-row{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.col{
+flex: 0 0 50%;
+max-width: 50%;
+}
+.col .style{
+line-height: 44px;
+padding: 30px 30px 40px 40px;
+margin-right: 2rem;
+border-radius: 36px;
+position: relative;
+background: #1a2838;
+}
+.col .style::after{
+background-size: 40%;
+content: "";
+position: absolute;
+background: url('https://live101.in/assets/img/opportunity-ribbon.png');
+bottom: -76%;
+left: -34px;
+width: 100%;
+height: 100%;
+display: block;
+background-repeat: no-repeat;
+}
+.col .land-img{
+width: 93%;
+background: #1a2838;
+border-radius: 12px;
+padding: 23px;
+}
+.col .land-img img{
+border-radius: 12px;
+vertical-align: middle;
+border-style: none;
+width: 100%;
+/* overflow-clip-margin: content-box;
+overflow: clip; */
+}
+.land-content p{
+line-height: 44px;
+width: 93%;
+}
+
+
+.img-back{background: #1a2838;
+    border-radius: 36px;
+padding: 40px;
+width: 97%;
+}
+.z-img::after{
+content: "";
+    background-image: url('https://live101.in/assets/img/landing-color-bg.png');
+    position: absolute;
+    display: block;
+    /* bottom: -16%; */
+    left: -24%;
+    top: 290%;
+    width: 100%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: -1;
+}
